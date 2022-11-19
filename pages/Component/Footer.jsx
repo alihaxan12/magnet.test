@@ -33,7 +33,7 @@ export const Footer = () => {
                         <BsLinkedin size={30} className='hover:fill-[#fca311]' />
                     </div>
                 </div>
-                <div className='mt-5  px-4 '>
+                <div className='mt-5 col-span-2 px-4 '>
                     <h1 className=' text-white text-center   md:text-justify text-2xl  font-bold '>Quick Links</h1>
                     <div className='grid '>
                         <ul className='text-white text-center md:text-justify'>

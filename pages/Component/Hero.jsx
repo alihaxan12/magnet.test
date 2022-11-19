@@ -1,6 +1,7 @@
 import React from 'react'
 // import Typed from "react-typed"
-// import Slide from 'react-reveal/Slide';
+import { FadeIn } from 'react-slide-fade-in'
+import Typewriter from 'typewriter-effect';
 export const Hero = () => {
     return (
         <div className=" w-full h-screen  "  >
@@ -20,29 +21,40 @@ export const Hero = () => {
                     }}>
                     <source src="/image/bgvid.mp4" type="video/mp4" />
                 </video>
-                <div className=" text-4xl grid md:w-[1240px]  font-bold text-white justify-center">
-                    {/* <Typed
-                        strings={[
-                            "We are Food",
-                            "We are Capital Projects",
-                            "We are SMCG",
-                            "We are Opration",
-                        ]}
-                        typeSpeed={100}
-                        backSpeed={50}
-                        loop
-                    /><span className="Text-4xl font-bold text-[#fca311]">Recruitment Specialists</span> */}
-
-                    {/* <Slide left> */}
-                        <button className=" text-xl  text-white bg-transparent font-bold border-[4px]   py-1  border-white-500 mx-auto  mt-6 w-[300px] h-[80px] hover:border-[#fca311] ease-in-out duration-150
-                                transition    hover:-translate-y-1 hover:scale-150 hover:bg-gray-500/70 
+                <div className=" text-4xl flex   font-bold text-white">
+                    <Typewriter
+                        options={{
+                            strings: ['We are <spane style=" color: #fca311">Food</span>', 
+                                      'We are <spane style=" color: #fca311">Capital Project</span>',
+                                      'We are <spane style=" color: #fca311">SMCG</span>',
+                                      'We are <spane style=" color: #fca311">Opration</span>',
+                                      ],
+                            autoStart: true,
+                            loop: true,
+                          }} 
+                    /><span>Magnet Recurit Spacialists</span>
+                    </div>
+                    <div>
+                    <FadeIn
+                        from="left"
+                        positionOffset={400}
+                        triggerOffset={200}
+                        delayInMilliseconds={400}
+                    >
+                        <button className=" text-xl  text-white bg-transparent font-medium border-[4px]   py-1  border-white-500 mx-auto  mt-6 w-[300px] h-[60px] hover:border-[#fca311] ease-in-out duration-150
+                                transition    hover:-translate-y-1 hover:scale-110 hover:bg-gray-500/70 
                                 ">I AM LOOKING FOR A JOB </button>
-                    {/* </Slide> */}
-                    {/* <Slide right> */}
-                        <button className=" text-xl  text-white bg-transparent font-bold border-[4px]   py-1  border-white-500 mx-auto mt-6 w-[300px] h-[80px] hover:border-[#fca311] ease-in duration-150
+                    </FadeIn>
+                    <FadeIn
+                        from="right"
+                        positionOffset={400}
+                        triggerOffset={200}
+                        delayInMilliseconds={400}
+                    >
+                        <button className=" text-xl  text-white bg-transparent font-semibold border-[4px]   py-1  border-white-500 mx-auto mt-6 w-[300px] h-[60px] hover:border-[#fca311] ease-in duration-150
                             transition  delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-gray-500/70 
                         ">I'M HIRING</button>
-                    {/* </Slide> */}
+                    </FadeIn>
                 </div>
                 <div >
 

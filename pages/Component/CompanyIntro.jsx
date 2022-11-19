@@ -1,14 +1,20 @@
 import React from 'react'
 import Image from 'next/image'
+import { FadeIn } from 'react-slide-fade-in'
 export const CompanyIntro = () => {
     return (
         <div className='w-full  '>
             <div >
                 <div className='w-full pt-10 bg-[#14213d] '>
                     <div className='w-full items-center text-center pt-10'>
-                        {/* <Slide left> */}
+                    <FadeIn
+                        from="left"
+                        positionOffset={400}
+                        triggerOffset={200}
+                        delayInMilliseconds={400}
+                    >
                             <h1 className='text-4xl font-bold text-white'>We Specialise in Everything We Do</h1>
-                        {/* </Slide> */}
+                        </FadeIn>
                     </div>
                 </div>
                 <div className='w-full bg-[#14213d]' >
