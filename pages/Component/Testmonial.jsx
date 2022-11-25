@@ -1,7 +1,7 @@
 
 import React from 'react'
-import SlidText from './SlidText'
-import SlideImage from './SlideImage'
+// import SlidText from './SlidText'
+// import SlideImage from './SlideImage'
 import Image from 'next/image'
 
 const Testmonial = () => {
@@ -20,11 +20,11 @@ const Testmonial = () => {
                 <h1 className='text-5xl text-center font-bold text-white'>Testimonials</h1>
             </div>
             <div className='md:w-full py-4 m-auto bg-[#14213d]'>
-                <SlidText/>
+                {/* <SlidText/> */}
             </div>
             <div className='md:w-full '>
                 <div className='md:w-[1080px] mx-auto'>
-                <SlideImage/>
+                {/* <SlideImage/> */}
                 </div>
        
             </div>

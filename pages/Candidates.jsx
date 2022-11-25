@@ -4,7 +4,7 @@ import { HiOutlineArrowUpTray } from 'react-icons/hi2';
 import { Footer } from './Component/Footer';
 import Image from 'next/image';
 import Accordion from './Component/Accordion';
-import SlideImage from './Component/SlideImage';
+// import SlideImage from './Component/SlideImage';
 import Link from 'next/link'
 
 const Candidates = () => {
@@ -139,7 +139,7 @@ const Candidates = () => {
                     <Image alt='image' src='/image/candidatewavedown.svg' width={1080} height={210} layout='responsive' className='' />
                     <div className="w-full ">
                         <div className='md:w-[1080px] m-auto'>
-                            <SlideImage />
+                            {/* <SlideImage /> */}
                         </div>
                     </div>
                 </div>

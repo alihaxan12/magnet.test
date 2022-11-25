@@ -1,6 +1,6 @@
 import { BsLinkedin } from 'react-icons/bs';
 import { HiMail } from 'react-icons/hi';
-import SlideImage from './Component/SlideImage';
+// import SlideImage from './Component/SlideImage';
 import  {Footer}  from './Component/Footer';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -266,7 +266,7 @@ const WhoweAre = () => {
         </div>   
         <div className="w-full ">
           <div className='md:w-[1080px] m-auto'>
-              <SlideImage/>
+              {/* <SlideImage/> */}
           </div>
         </div>  
         <Footer/>

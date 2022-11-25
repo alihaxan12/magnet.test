@@ -20,6 +20,7 @@ export const Navbar = () => {
                         <Link href='/Candidates'><li className="cursor-pointer  ml-10 font-bold text-white ">Candidates</li></Link>
                         <Link href='/SearchJob'><li className=" cursor-pointer ml-10 font-bold text-white  "> Search Jobs </li></Link>
                         <Link href='/ContactUs'><li className=" cursor-pointer ml-10 font-bold text-white  "> Contact Us </li></Link>
+                        {/* <Link href='/Test'><li className=" cursor-pointer ml-10 font-bold text-white  "> Slid </li></Link> */}
                     </ul>
                 </div>
                 <div onClick={handleNav} className='md:hidden'>

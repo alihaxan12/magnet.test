@@ -1,7 +1,7 @@
 import {Footer} from './Component/Footer';
 import {SiSpeedtest} from 'react-icons/si';
 import Image from 'next/image';
-import SlideImage from './Component/SlideImage';
+// import SlideImage from './Component/SlideImage';
 
 const Client = () => {
     return (
@@ -99,7 +99,7 @@ const Client = () => {
             </div>
             <div className="w-full ">
           <div className='md:w-[1080px] m-auto'>
-              <SlideImage/>
+              {/* <SlideImage/> */}
           </div>
         </div> 
             <Footer />
